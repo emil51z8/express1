@@ -11,7 +11,7 @@ app.get('/hest', (req, res) => {
   })
 
   app.get('/api/hest', (req, res) => {
-    res.send('{hest: "hest", owner: "Emil", age: 12}')
+    res.send('{"hest": "hest", "owner": "Emil", "age": 12}')
   })
 
 app.listen(port, () => {
